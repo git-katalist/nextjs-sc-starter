@@ -1,4 +1,4 @@
-const about = () => {
+const about = ({ prefix }) => {
   return (
     <div>
       <a href={`${prefix}/`}>Home Page</a>
