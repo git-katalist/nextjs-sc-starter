@@ -1,7 +1,7 @@
 const about = () => {
   return (
     <div>
-      <a href="/">Home Page</a>
+      <a href={`${prefix}/`}>Home Page</a>
       We are all set to go
     </div>
   );
